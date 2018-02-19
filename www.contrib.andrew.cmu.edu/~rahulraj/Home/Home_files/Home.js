@@ -1,0 +1,9 @@
+// Created by iWeb 3.0.4 local-build-20120206
+
+setTransparentGifURL('Media/transparent.gif');function applyEffects()
+{var registry=IWCreateEffectRegistry();registry.registerEffects({shadow_3:new IWShadow({blurRadius:4,offset:new IWPoint(1.4142,1.4142),color:'#000000',opacity:0.500000}),shadow_4:new IWShadow({blurRadius:4,offset:new IWPoint(1.4142,1.4142),color:'#000000',opacity:0.500000}),stroke_0:new IWStrokeParts([{rect:new IWRect(-3,2,4,74),url:'Home_files/stroke.png'},{rect:new IWRect(-2,-1,3,3),url:'Home_files/stroke_1.png'},{rect:new IWRect(1,-3,101,5),url:'Home_files/stroke_2.png'},{rect:new IWRect(102,-2,5,4),url:'Home_files/stroke_3.png'},{rect:new IWRect(102,2,5,74),url:'Home_files/stroke_4.png'},{rect:new IWRect(102,76,5,4),url:'Home_files/stroke_5.png'},{rect:new IWRect(1,76,101,4),url:'Home_files/stroke_6.png'},{rect:new IWRect(-3,76,4,4),url:'Home_files/stroke_7.png'}],new IWSize(105,78)),shadow_1:new IWShadow({blurRadius:4,offset:new IWPoint(1.4142,1.4142),color:'#000000',opacity:0.500000}),shadow_2:new IWShadow({blurRadius:4,offset:new IWPoint(1.4142,1.4142),color:'#000000',opacity:0.500000}),shadow_6:new IWShadow({blurRadius:4,offset:new IWPoint(1.4142,1.4142),color:'#000000',opacity:0.500000}),shadow_7:new IWShadow({blurRadius:4,offset:new IWPoint(1.4142,1.4142),color:'#000000',opacity:0.500000}),shadow_0:new IWShadow({blurRadius:4,offset:new IWPoint(1.4142,1.4142),color:'#000000',opacity:0.500000}),shadow_5:new IWShadow({blurRadius:4,offset:new IWPoint(1.4142,1.4142),color:'#000000',opacity:0.500000})});registry.applyEffects();}
+function hostedOnDM()
+{return false;}
+function onPageLoad()
+{loadMozillaCSS('Home_files/HomeMoz.css')
+adjustLineHeightIfTooBig('id1');adjustFontSizeIfTooBig('id1');fixAllIEPNGs('Media/transparent.gif');IMpreload('Home_files','shapeimage_2','0');applyEffects()}

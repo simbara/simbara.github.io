@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /~sivas/doc
+Disallow: /~dting
+Disallow: /~ak2w/official.html
+
